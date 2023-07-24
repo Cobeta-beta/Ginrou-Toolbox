@@ -33,7 +33,7 @@ Wallace toolbox : 0.0.6
 
 ## Установка
 
-Используйте WebIDE (старые версии Firefox или Pale Moon), [gdeploy](https://gitlab.com/suborg/gdeploy) чтобы установить напрямую. Или OmniSD версию, которая находится в Releases. 
+Используйте WebIDE (старые версии Firefox или Pale Moon), или [gdeploy](https://gitlab.com/suborg/gdeploy) чтобы установить напрямую.
 
 ## Титры
 
