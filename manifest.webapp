@@ -9,36 +9,36 @@
     "112": "/img/werewolf-112.png"
   },
   "developer": {
-    "name": "Luxferre"
+    "name": "Cobeta"
   },
-  "origin": "app://wallace-toolbox.bananahackers.net",
+  "origin": "app://ginrou-toolbox.cobeta.net",
   "fullscreen": true,
   "permissions": {
     "engmode-extension": {
-      "description": "Handle KaiOS 2.5.1+ devices"
+      "description": "Работа с устройствами на базе KaiOS 2.5.1+"
     },
     "external-api": {
-      "description": "Handle KaiOS 2.5.1+ devices"
+      "description": "Работа с устройствами на базе KaiOS 2.5.1+"
     },
     "kaiosextension": {
-      "description": "Handle KaiOS 2.5 devices"
+      "description": "Работа с устройствами KaiOS 2.5"
     },
     "jrdextension": {
-      "description": "Handle KaiOS 1.0 devices by TCL"
+      "description": "Работа с устройствами KaiOS 1.0 с помощью TCL"
     },
     "power": {
-      "description": "Enable priviliged factory reset capability"
+      "description": "Включить совместимость с привегилирированным сброссом"
     },
     "settings": {
       "access": "readwrite",
-      "description": "Enable hidden settings modification"
+      "description": "Включить скрытое меню настроек"
     },
     "device-storage:apps": {
       "access": "readwrite",
-      "description": "Support package installation"
+      "description": "Поддержка установки приложений"
     },
     "webapps-manage": {
-      "description": "Support package installation"
+      "description": "Поддержка установки приложений"
     }
   },
   "theme_color": "#7cb8b1",
