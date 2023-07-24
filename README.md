@@ -1,42 +1,46 @@
-# Wallace Toolbox
+Внимание, я не создала, и не причастна к созданию wallace toolbox. Я, только создала перевод. Поддержите автора оригинального приложения. (https://gitlab.com/suborg/wallace-toolbox)
+# Wallace/Ginrou Toolbox
 
-## About
+## Про Wallace Toolbox
 
-Universal toolbox for KaiOS internal tweaking - 15 useful functions packed in one small app.
+Универсальный набор инструментов для настройки KaiOS - 15 полезных функций в одном небольшом приложении.
 
-Based on [LibWallace](https://gist.github.com/plugnburn/00fa61006513cdb0a12adf61a6e425e1) and several independent researches.
+Основанно на [LibWallace](https://gist.github.com/plugnburn/00fa61006513cdb0a12adf61a6e425e1) и нескольких независимых исследований
 
-## Current version
+## Текущая версия
 
-0.0.6
+Wallace toolbox : 0.0.6
+Перевод : 1.0
 
-## Current feature list
+## Текущий список функция
 
-- `1`: ADB root (requires Busybox for the operation, you may use [OmniBB](https://gitlab.com/suborg/omnibb) to install it if missing)
-- `2`: Call recording on/auto/off (works on KaiOS 2.5.2 and higher, tested on Nokia 2720 Flip and Nokia 800 Tough)
-- `3`: Install application package (OmniSD/GerdaPkg compatible, works when developer menu is enabled, tested on Nokias only)
-- `4`: Override TTL when tethering until reboot (Qualcomm devices only)
-- `5`: Edit IMEI1 (Nokia and MediaTek devices only)
-- `6`: Edit IMEI2 (Nokia and MediaTek devices in DSDS configuration only)
-- `7`: Toggle browser proxy on/off
-- `8`: Set browser proxy host and port
-- `9`: Override user agent (dangerous: affects KaiStore accessibility, can't be reset until the factory reset or manual device preferences editing in WebIDE)
-- `0`: Toggle diagnostics port (Qualcomm devices only)
-- `*`: Run overclocking script (Qualcomm devices only)
-- `#`: Enable developer menu and privileged access (via cache injection method)
-- `Call`: Edit Wi-Fi MAC address (Nokia and MediaTek devices only, temporary for MediaTeks)
-- Left soft key: Edit Bluetooth MAC address (Nokia devices only)
-- Right soft key: Make all pre-installed apps removable from the app menu without affecting system partition (requires Busybox for the operation)
+- `1`: ADB root (Требует Busybox. Лучше установить [OmniBB](https://gitlab.com/suborg/omnibb) если у вас его ещё нет.)
+- `2`: Запись звонков вкл/авто/выкл (Работает на KaiOS 2.5.2 и выше, протестированно на Nokia 2720 Flip и Nokia 800 Tough)
+- `3`: Установка пакета приложения (OmniSD/GerdaPkg совместимые, работает когда включенно меню разроботчика. Протестированно только на Nokia.)
+- `4`: Перезаписывание TTL при Тетеринге до перезагузки (Только для Qualcomm устройств)
+- `5`: Редактирование IMEI1 (Только Nokia и MediaTek устройств)
+- `6`: Редактирование IMEI2 (Только для Nokia и MediaTek устройств с двумя сим-картами)
+- `7`: Переключение прокси вкл/выкл
+- `8`: Установка прокси для браузера хост и порт
+- `9`: Перезаписывание агента пользователя (Небезопасно: влияет на работу KaiOS Store, не может быть отмененно до сброса до заводских настроек или ручного редактирования в WebIDE)
+- `0`: Переключение диагностического порта (Только для Qualcomm устройств.)
+- `*`: Запуск скрипта разгона (Только для Qualcomm устройств)
+- `#`: Включить меню разроботчика, и превилигированный режим (с помощью cache инъекции)
+- `Кнопка Звонка`: Редактирование Wi-Fi MAC адресса (Только для Nokia и MediaTek устройств, и временно для Mediatek)
+- Левая мягкая кнопка: Редактирование Bluetooth MAC адресса (Только для Nokia устройств)
+- Правая мягкая кнопка: Сделать все предустановленные приложения удаляемыми из меню приложений, не затрагивая системный раздел (Требуется Busybox)
+Правая, и левая мягкая кнопка подрузамивает кнопки над кнопкой назад, и горячей кнопкой. Пример : ![image](https://github.com/Cobeta-beta/ginrou-toolbox/assets/140401724/f843d652-d6cf-4dea-abb6-6045209906e9)
 
-## Installation
+## Установка
 
-Use standard WebIDE connection (old Firefox or Pale Moon) or [gdeploy](https://gitlab.com/suborg/gdeploy) to install the app directly onto your device.
-You can also use the `build.sh` script to build an OmniSD/GerdaPkg/WT compatible application package from the current Git snapshot.
+Используйте WebIDE (старые версии Firefox или Pale Moon), [gdeploy](https://gitlab.com/suborg/gdeploy) чтобы установить напрямую. Или OmniSD версию, которая находится в Releases. 
 
-## Credits
+## Титры
 
-Created and improved by [BananaHackers](https://bananahackers.net) group members:
+Созданно, и улучшенно [BananaHackers](https://bananahackers.net) группой пользователей:
 
-- Luxferre - main research and coding;
-- Anthill - Unisoc-compatible rooted `adbd` version;
-- fabio_malagas - Unisoc device testing.
+- Luxferre - основные исследования и кодирование;
+- Anthill - Unisoc-совместимая root версия `adbd`;
+- fabio_malagas - тестирование на Unisoc-устройствах.
+
+Перевела : Cobeta https://4pda.to/forum/index.php?showuser=11373575
