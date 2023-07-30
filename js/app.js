@@ -98,7 +98,7 @@ window.addEventListener('DOMContentLoaded', function() {
               actionLock = false
             }, function(e) {
               if(e.toString() === 'InvalidPrivilegeLevel')
-                window.alert('Недостаточно прав. Включите меню разроботчика (#) перед попыткой установить пакет приложения.')
+                window.alert('Недостаточно прав. Включите меню разработчика (#) перед попыткой установить пакет приложения.')
               else
                 window.alert('Ошибка установки приложения: ' + e)
               actionLock = false
@@ -283,7 +283,7 @@ window.addEventListener('DOMContentLoaded', function() {
           else window.alert('Ошибка: DIAG порт может быть использован только на Qualcomm ')
           break
         case '#': //developer menu
-          if(window.confirm('Включить меню разроботчика и перезагрузится?'))
+          if(window.confirm('Включить меню разработчика и перезагрузится?'))
             Wallace.runCmd('echo -n root > /cache/__post_reset_cmd__;cp /cache/__post_reset_cmd__ /persist/__post_reset_cmd__', function() {
               Wallace.reboot()
             }, function(e) {

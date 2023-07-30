@@ -5,8 +5,8 @@
   "launch_path": "/index.html",
   "type": "certified",
   "icons": {
-    "56": "/img/werewolf-56.png",
-    "112": "/img/werewolf-112.png"
+    "56": "/img/ginrou-56.png",
+    "112": "/img/ginrou-112.png"
   },
   "developer": {
     "name": "Cobeta"
